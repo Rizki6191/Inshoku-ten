@@ -1,0 +1,46 @@
+/* Tema Warna Jepang - Merah & Netral */
+:root {
+  /* Warna Primer - Merah Jepang (Aka) */
+  --japan-red: #dc2626;
+  --japan-red-dark: #b91c1c;
+  --japan-red-light: #ef4444;
+  
+  /* Warna Netral */
+  --japan-cream: #fef7ed;
+  --japan-beige: #f5f5f0;
+  --japan-brown: #8b4513;
+  --japan-brown-dark: #5d4037;
+  --japan-gold: #d4af37;
+  
+  /* Warna Akses */
+  --japan-black: #1a1a1a;
+  --japan-gray: #6b7280;
+  --japan-gray-light: #e5e7eb;
+}
+
+/* Global Styles dengan tema Jepang */
+body {
+  background-color: var(--japan-beige);
+  font-family: 'Inter', 'Hiragino Sans', 'Meiryo', sans-serif;
+}
+
+/* Utility Classes untuk tema Jepang */
+.bg-japan-red {
+  background-color: var(--japan-red);
+}
+
+.text-japan-red {
+  color: var(--japan-red);
+}
+
+.border-japan-red {
+  border-color: var(--japan-red);
+}
+
+.bg-japan-cream {
+  background-color: var(--japan-cream);
+}
+
+.text-japan-brown {
+  color: var(--japan-brown);
+}
